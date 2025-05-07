@@ -8,7 +8,7 @@ pandas
 pyyaml
 tqdm
 soundfile
-
+pyttsx3
 # Transformers
 transformers
 sentencepiece  # Needed for some pretrained models (e.g., SpeechT5)

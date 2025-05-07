@@ -18,7 +18,7 @@ class VoiceTransformer(nn.Module):
             self.cls_head = nn.Sequential(
                 nn.Linear(self.model.config.hidden_size, 128),
                 nn.ReLU(),
-                nn.Linear(128, 2)  # Male / Female
+                nn.Linear(128, 2)  # Type1 / Type2
             )
 
         # Optional projection head for output mel predictions
