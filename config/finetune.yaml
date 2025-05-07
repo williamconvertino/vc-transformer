@@ -1,0 +1,11 @@
+device: "cuda"
+batch_size: 4
+epochs: 20
+lr: 5e-5
+save_every: 2
+
+dataset:
+  metadata_csv: "data/metadata/finetune_metadata.csv"
+
+pretrained_checkpoint: "checkpoints/pretrain/pretrain_epoch30.pt"
+checkpoint_dir: "checkpoints/finetune"

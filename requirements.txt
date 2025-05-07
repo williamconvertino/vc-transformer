@@ -1,0 +1,20 @@
+# Core
+torch>=2.0
+torchaudio
+librosa
+numpy
+scipy
+pandas
+pyyaml
+tqdm
+soundfile
+
+# Transformers
+transformers
+sentencepiece  # Needed for some pretrained models (e.g., SpeechT5)
+
+# Vocoder (HiFi-GAN)
+# If using custom implementation, you’ll need to clone it or include it in `models/hifigan/`
+
+# Optional (for advanced perceptual loss or pitch eval)
+crepe

@@ -1,0 +1,5 @@
+model_checkpoint: "checkpoints/finetune/finetune_epoch20.pt"
+vocoder_checkpoint: "checkpoints/vocoder/generator.pth"
+input_wav: "test_inputs/my_voice.wav"
+output_wav: "outputs/feminized_voice.wav"
+sr: 22050
